@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar-container {
+    border-bottom: 5px solid #55ac53;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.img {
+    display: inline-block;
+    width: 80px;
+    padding-right: 15px;
+    border-right: 1px solid #eee;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.img img {
+    width: 100%;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar ul li {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.navbar ul li:hover a {
+    color: #4aa3e2;   
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+    padding-right: 15px;
+    transition: all 0.2s;
+}
+
+.box {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.icon {
+    width: 15px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.margin {
+    margin-left: 15px;
+}
+
+.search-signin {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.icon-search,
+.icon-user {
+    position: relative;
+    width: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.icon-user {
+    margin-left: 20px;
+}
+
+.border {
+    border-right: 1px solid #eee;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+/* Color boxes */
+.red {
+    margin-left: 15px;
+    background-color: #d33d3d;
+}
+
+.navbar ul li:hover > .red + a {
+    color: #d33d3d;   
+}
+
+.orange {
+    background-color: #EF6F3E;
+}
+
+.navbar ul li:hover > .orange + a {
+    color: #EF6F3E;   
+}
+
+.green {
+    background-color: #55AC53;
+}
+
+.navbar ul li:hover > .green + a {
+    color: #55AC53;   
+}
+
+.purple {
+    background-color: #a45091;
+}
+
+.navbar ul li:hover > .purple + a {
+    color: #a45091;   
+}
+
+.yelloworange {
+    background-color: #E2A600;
+}
+
+.navbar ul li:hover > .yelloworange + a {
+    color: #E2A600;   
+}
+
+.lightblue {
+    background-color:#40afee;
+}
+
+.navbar ul li:hover > .lightblue + a {
+    color: #40afee;   
+}
+
+.blue {
+    background-color: #487baf;
+}
+
+.navbar ul li:hover > .blue + a {
+    color: #487baf;   
+}
+
+.grey {
+    background-color: #aeaeae;
+}
